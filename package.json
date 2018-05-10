@@ -1,0 +1,50 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server/server.js -p $PORT",
+    "start": "node server/server.js -p $PORT",
+    "build": "next build && next export",
+    "storybook": "start-storybook -s ./ -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "auth0-lock": "11.6.1",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "express-jwt": "5.3.1",
+    "express-jwt-authz": "1.0.0",
+    "jquery": "3.3.1",
+    "js-cookie": "2.2.0",
+    "jwks-rsa": "1.2.1",
+    "jwt-decode": "2.2.0",
+    "lost": "8.2.0",
+    "mongoose": "5.0.17",
+    "next": "latest",
+    "now-env": "3.0.4",
+    "postcss-nested": "2.1.2",
+    "prop-types": "15.6.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-ga": "2.4.1",
+    "react-tooltip": "3.5.0",
+    "styled-jsx-plugin-postcss": "0.1.0",
+    "url": "0.11.0",
+    "uuid": "3.2.1"
+  },
+  "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "lost": {},
+      "postcss-nested": {}
+    }
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.2",
+    "@storybook/addon-actions": "^3.4.2",
+    "@storybook/addon-links": "^3.4.2",
+    "@storybook/addons": "^3.4.2",
+    "babel-core": "^6.26.0"
+  }
+}

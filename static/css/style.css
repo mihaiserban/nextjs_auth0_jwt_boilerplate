@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: -apple-system-body,"SFUI","Helvetica Neue",Roboto,Helvetica,sans-serif;
+    color: black;
+    line-height: 1.6;
+    overflow: inherit;
+    overflow-x: hidden;
+    background: #f7f9fb;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+body > div:first-child, #__next {
+  height: 100%;
+}

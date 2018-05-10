@@ -1,0 +1,9 @@
+{
+    "name": "project_name",
+    "alias": "project_name.now.sh",
+    "env": {
+        "node_env": "@node_env",
+        "session_secret": "@session_secret",
+        "db_connection_string": "@db_connection_string"
+    }
+}
